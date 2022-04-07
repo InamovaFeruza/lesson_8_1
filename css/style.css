@@ -1,0 +1,215 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+* {
+}
+.wrapper {
+	/*background-image: url("/img/01.jpg");*/
+	padding-top: 10px;
+	background-attachment: fixed;
+}
+.wrapper2 {
+	background-color: rgb(243, 235, 224);
+	max-width: 900px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+body {
+	font-family: "Oswald";
+	font-size: 25px;
+	line-height: 1.5;
+}
+.cosmos {
+}
+.cosmos-name-block {
+	color: rgba(96, 60, 226, 0.836);
+	font-size: 70px;
+	text-align: center;
+}
+.cosmos-name {
+}
+
+.cosmos-name:hover {
+	text-decoration: underline;
+}
+.cosmos-name:active {
+	color: aqua;
+}
+.container {
+	max-width: 1100px;
+	margin: 0px auto;
+}
+.cosmos-planets {
+	background-color: rgb(243, 235, 224);
+	background: url("../img/angle1.jpg") left top no-repeat, url("../img/angle2.jpg") right top no-repeat, #fff;
+	min-height: 150px;
+	border: 1px solid rgb(63, 56, 122);
+	box-shadow: 1px 1px 20px rgb(63, 56, 122);
+	margin: 3%;
+}
+.yupiter {
+	max-width: 200px;
+}
+.menu {
+	margin: 10px 15px;
+	text-align: center;
+}
+.item-link {
+	background-color: cadetblue;
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 15px;
+	color: #ddd;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 1.5px;
+}
+.link {
+	color: #fff;
+}
+
+.item-link:hover {
+	text-decoration: underline;
+}
+.item-link:active {
+	color: aquamarine;
+	text-decoration: underline;
+}
+
+.cosmos-main {
+	background-color: rgb(243, 235, 224);
+	/*background-image: url("../img/Jupiter-PNG-Pic-Background.png");*/
+	background-repeat: no-repeat;
+	background-position: center 250px;
+	background-attachment: fixed;
+
+	border: 1px solid black;
+}
+
+
+.text-1:hover {
+	/*color: aquamarine;*/
+}
+.text-1::before{
+	content: "";
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin: 0px 10px 20px -32px;
+	background-repeat: no-repeat;
+	background-image: url("../img/chek.png");
+}
+.text-1::after{
+	content: "";
+	width:20px;
+	height: 20px;
+	display: inline-block;
+	margin: 0px 10px 20px 0px;
+	background-repeat: no-repeat;
+	background-image: url("../img/chek.png"); 
+}
+
+.text {
+	margin-bottom: 10px;
+	line-height: 1.5;
+}
+.text:hover {
+	background-color: #ddd;
+}
+.title {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.title:hover{
+	text-decoration: underline;
+}
+.text-2 {
+	/*background-color: rgba(135, 190, 235, 0.5);*/
+}
+.text-2:hover {
+	color: blueviolet;
+	cursor: default;
+	/*visibility: hidden;*/
+}
+.text-3 {
+	/*background: rgb(17, 0, 36);*/
+	pointer-events: none
+	background: linear-gradient(90deg, rgba(17, 0, 36, 0.5) 0%, rgba(9, 9, 121, 0.7) 50%, rgba(0, 212, 255, 1) 100%);
+}
+.text-3:hover {
+	color: rgb(31, 22, 22);
+}
+
+.text-4 {
+	/*background: rgb(152, 167, 242);*/
+	background: radial-gradient(circle, rgba(152, 167, 242, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+.text-4:hover {
+	color: darkblue;
+}
+.text-4 p:first-child{
+	color: red;
+}
+.text-4 *:last-child{
+	margin-bottom: 100px;
+}
+.text-5 {
+	/*background-image: url("../img/images.jpg");*/
+	background-repeat: repeat;
+	background-position: 50% 50%;
+	color: #fff;
+}
+.text-5:hover {
+	color: deeppink;
+}
+.text-6 {
+	/*background-color: rgba(5, 9, 48, 0.582);*/
+	/*background-image: url("../img/Saturn-Transparent-Background.png");*/
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 40px;
+}
+/* .text-6:hover {
+	color: crimson;
+} */
+.text-6 p:last-child{
+	background-color: red;
+}
+.text-6 p:nth-child(odd){
+	background-color: blueviolet;
+}
+
+.text-7 {
+	/*background-image: url("../img/flower-purple-back.jpg"), url("../img/gold-back.jpg"), url("../img/01.jpg");*/
+
+	background-repeat: no-repeat;
+	background-position: right, left, 50%;
+	background-size: 50px, auto auto, cover;
+}
+.text-7 p:nth-child(3n){
+	background-color:red;
+}
+.text-7:hover {
+	color: blueviolet;
+	cursor: default;
+}
+.text-8:hover {
+	color: aquamarine;
+}
+.text-8 p:nth-child(3n + 4){
+	background-color: blue;
+
+}
+.text-9:hover {
+	color: brown;
+	cursor: default;
+}
+.text-10:hover {
+	color: blue;
+}
+.text-11:hover {
+	cursor: default;
+	color: coral;
+}
